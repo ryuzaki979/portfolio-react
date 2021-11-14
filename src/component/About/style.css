@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body{
+    background-color: #15202b;
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+}
+
+.aboutMe{
+    flex-basis: 35%;
+}
+
+.name{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.profession{
+    letter-spacing: .1rem;
+    font-size: 1rem;
+    color: #5199ec;
+}
+.aboutMe .description{
+    margin-top: 2rem;
+}

@@ -1,0 +1,16 @@
+[
+        {
+          "name": "github",
+          "link": "https://github.com/ryuzaki979",
+          "icon": "SiFacebook"
+        },
+        {
+          "name": "frontendmentor",
+          "link": "https://www.frontendmentor.io/profile/ryuzaki979",
+          "icon" : "SiFrontendmentor"
+        },
+        {
+          "name": "codepen",
+          "link": "https://codepen.io/ryuzaki979-codepen"
+        }
+      ]

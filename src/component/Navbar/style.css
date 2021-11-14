@@ -1,0 +1,33 @@
+.navbar{
+    margin-top: 2rem;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+}
+.navbar li{
+   
+    font-size:  .75rem;
+    margin-right: 1rem;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    letter-spacing: .15rem;
+    font-weight: bold;
+}
+a + a {
+    margin: 0 1rem;
+}
+
+.nav__link:hover{
+    color: #5199ec;
+}

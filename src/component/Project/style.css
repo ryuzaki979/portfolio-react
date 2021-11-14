@@ -1,0 +1,96 @@
+:root{
+  --project-width: 350px;
+}
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+body{
+  position: relative;
+  overflow: hidden;
+}
+.scene {
+  width: 90%;
+  margin: 10rem auto;
+  height: 570px;
+  
+}
+.slide {
+  transform: scale(0.2);
+  transition: transform 300ms;
+  opacity: 0.5;
+  position: relative;
+  width: 500px;
+  height: 300px;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+
+
+.activeSlide {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.arrow {
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #68edff;
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+}
+@media only screen and (max-width: 800px) {
+  .next{
+    right: -20px;
+  }
+  .prev{
+    left: -20px;
+  }
+}
+
+.slide .description{
+  opacity: 0;
+  position:absolute;
+  background-color: rgba(0,0,0,.75);
+  top: 0;
+  bottom: 0;
+  padding: 4rem 2rem;
+  transition: opacity .5s ease;
+}
+.activeSlide:hover .description{
+  
+  opacity: 1;
+}
+
+.text{
+  font-size: .75rem;
+  margin: .5rem 0;
+}
+.button{
+  background-color: #68edff;
+  padding: 1rem;
+  border-radius: 5px;
+  border:none;
+  outline: none;
+}

@@ -1,0 +1,50 @@
+.contact{
+    flex-direction: column;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    height: 85vh;
+}
+.contact h2{
+    color:#15202b;
+}
+
+form {
+    background: #15202b;
+    border: 2px solid #16444d;
+    width: 40vw;
+    min-width: 400px;
+    min-height: 50vh;
+    font-size: 1.1rem;
+    font-family: 'Russo One', sans-serif;
+    padding: 2rem;
+}
+@media only screen and (max-width: 600px) {
+    form{
+        width: 90vw;
+    }
+  }
+input{
+    width: 100%;
+    background: #192734;
+    outline: none;
+    border: 2px solid #16444d;
+    border-radius: 5px;
+    margin: .5rem 0;
+    padding: .4rem 0;
+}
+textarea{
+    width: 100%;
+    text-align: left;
+    margin: .5rem 0;
+}
+.btn{
+    display: block;
+    width: 100%;
+    background: #17a2b8;
+    text-align: center;
+    cursor: pointer;
+    padding: .5rem 0;
+}

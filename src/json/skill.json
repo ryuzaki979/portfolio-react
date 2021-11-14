@@ -1,0 +1,73 @@
+[
+    {
+        "languages": [
+            {
+              "name": "JavaScript",
+              "type": "language",
+              "icon": "fab fa-js-square"
+            },
+            {
+              "name": "HTML",
+              "type": "language",
+              "icon": "far fa-file-code"
+            },
+            {
+              "name": "CSS",
+              "type": "language",
+              "icon": "far fa-file-code"
+            },
+            {
+              "name": "Sass",
+              "type": "language",
+              "icon": "far fa-file-code"
+            },
+            
+            {
+              "name": "Java",
+              "type": "language",
+              "icon": "fab fa-java"
+            }
+          ],
+          "tools": [
+            {
+              "name": "GitHub",
+              "type": "tool",
+              "icon": "fab fa-github"
+            },
+            {
+              "name": "Node.js",
+              "type": "tool",
+              "icon": "fab fa-node-js"
+            },
+            {
+              "name": "NPM",
+              "type": "tool",
+              "icon": "fab fa-npm"
+            },
+            
+            {
+              "name": "VS Code",
+              "type": "tool",
+              "icon": "fas fa-tools"
+            }
+          ],
+          "libraries": [
+            {
+              "name": "React",
+              "type": "framework / librasies",
+              "icon": "fab fa-react"
+            },
+            
+            {
+              "name": "Bootstrap",
+              "type": "framework / libraries",
+              "icon": "fab fa-bootstrap"
+            },
+            {
+              "name": "jQuery",
+              "type": "framework / librasies",
+              "icon": "far fa-file-code"
+            }
+          ]
+    }
+]

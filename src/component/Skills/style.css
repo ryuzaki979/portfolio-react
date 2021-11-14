@@ -1,0 +1,66 @@
+
+.aboutSkill{
+    height: 175px;
+}
+
+.title-2{
+   text-transform: uppercase;
+    margin: .1rem 0;
+    font-size: 1.15rem;
+}
+
+.skillItem{
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: #5199ec;
+}
+.indicators{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+    z-index: -10;
+    margin-right:  2rem;
+}
+.indicators::before{
+    content:  '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color:  #fff;
+    display: block;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-0.2%);
+    z-index: -10;
+}
+.indicator{
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.indicator:last-child{
+    position: relative;
+}
+.indicator:last-child::before{
+    content:  '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.skills{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
