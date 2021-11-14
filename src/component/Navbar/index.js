@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from 'react-router-dom'
-import $ from 'jquery'
 import social from '../../json/social.json'
 import './style.css'
 import CreateList from "./CreateList";

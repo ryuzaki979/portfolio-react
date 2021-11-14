@@ -50,8 +50,8 @@ const ProjectItems = () => {
         <Slider {...settings}>
         {projectData.map((data, index) => {
             console.log(index,imageIndex)
-            return  <div className={index == imageIndex ? "slide  activeSlide" : "slide"} >
-                <img src={data.image} alt=" project-image" />
+            return  <div className={index === imageIndex ? "slide  activeSlide" : "slide"} >
+                <img src={data.image} alt=" project-img" />
                 <div className="description">
                   
                   <div className="description__text-container">
