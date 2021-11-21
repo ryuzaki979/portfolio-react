@@ -6,17 +6,17 @@ const CreateList = (props) =>{
   
     return <>
         <li>
-                <a href={keys.github}>
+                <a target="_blank" href={keys.github}>
                     <SiGithub/>
                 </a>
         </li>
         <li>
-                <a href={keys.frontendmentor}>
+                <a target="_blank" href={keys.frontendmentor}>
                     <SiFrontendmentor/>
                 </a>
         </li>
         <li>
-                <a href={keys.codepen}>
+                <a target="_blank" href={keys.codepen}>
                     <SiCodepen/>
                 </a>
         </li>

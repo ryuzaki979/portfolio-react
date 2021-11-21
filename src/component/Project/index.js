@@ -58,8 +58,8 @@ const ProjectItems = () => {
                     <h1 className="title">{data.title}</h1>
                     <p className="details text">{data.description}</p>
                   </div>
-                  <button className="button">
-                      <a href={data.link}>
+                  <button className="button button__view">
+                      <a target="_blank" href={data.link}>
                           View Live
                       </a>
                   </button>

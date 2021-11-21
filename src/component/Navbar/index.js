@@ -17,9 +17,6 @@ const Navbar = ()=>{
                 <Link className="nav__link" to='/projects/'>
                     Timeline
                 </Link>
-                <Link className="nav__link" to='/contact/'>
-                    Contact
-                </Link>
             </ul>
         </nav>
     </>
