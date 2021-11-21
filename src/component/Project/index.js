@@ -59,7 +59,7 @@ const ProjectItems = () => {
                     <p className="details text">{data.description}</p>
                   </div>
                   <button className="button button__view">
-                      <a target="_blank" href={data.link}>
+                      <a target="_blank" href={data.link} rel="noreferrer">
                           View Live
                       </a>
                   </button>
